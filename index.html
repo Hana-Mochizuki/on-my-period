@@ -1,0 +1,36 @@
+<html oncontextmenu="return false;">
+  <head>
+    <title>on my .</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>on my .</h1>
+      <!--(videoタグで埋め込み)-->
+      <!--
+        <video
+          class="video-content"
+          src="movie.mp4"
+          controls
+          preload="auto"
+          controlsList="nodownload"
+        ></video>
+      -->
+
+      <div class="iframe-wrapper">
+        <!--(YouTubeから動画の埋め込み)-->
+        <iframe
+          class="iframe-content"
+          src="https://www.youtube.com/embed/3zanq8InIBw?rel=0&modestbranding=1"
+          title="YouTube video player"
+          frameborder="0"
+          rel="0"
+          picture-in-picture
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen"
+          ;
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
